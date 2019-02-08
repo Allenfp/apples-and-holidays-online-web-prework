@@ -81,5 +81,5 @@ def all_holidays_with_bbq(holiday_hash)
       if value.include?("BBQ")
         return_array.push(value)
   }
-
+  return_array
 end
