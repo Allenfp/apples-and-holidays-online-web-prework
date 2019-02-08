@@ -80,6 +80,7 @@ def all_holidays_with_bbq(holiday_hash)
   holiday_hash.each { |key, value|
       if value.include?("BBQ")
         return_array.push(value)
+      end
   }
   return_array
 end
